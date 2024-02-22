@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hotpink;
+    width: 100%;
+}
+
+a{
+    text-decoration:none ;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0 ; 
+    width: 100%; 
+}
+
+.caja{
+    width: 100%;
+    height: 100;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.caja img{
+border-radius: 25;
+width: 100px;
+
+}
+
+.caja p{
+   font-size: 15px; 
+}
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hotpink;
+    width: 100%;
+    height: 30%;
+}
